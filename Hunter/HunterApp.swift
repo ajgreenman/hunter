@@ -1,17 +1,12 @@
-//
-//  HunterApp.swift
-//  Hunter
-//
-//  Created by Andrew Greenman on 5/3/23.
-//
-
 import SwiftUI
 
 @main
 struct HunterApp: App {
+    @State private var hunts = HuntModel.sampleData
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HuntsListView(hunts: $hunts)
         }
     }
 }

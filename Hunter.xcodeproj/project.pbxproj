@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		D21264B92A02B57800B1D078 /* HunterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21264B82A02B57800B1D078 /* HunterApp.swift */; };
-		D21264BB2A02B57800B1D078 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21264BA2A02B57800B1D078 /* ContentView.swift */; };
 		D21264BD2A02B57800B1D078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D21264BC2A02B57800B1D078 /* Assets.xcassets */; };
 		D21264C02A02B57800B1D078 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D21264BF2A02B57800B1D078 /* Preview Assets.xcassets */; };
 		D21264CA2A02B57900B1D078 /* HunterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21264C92A02B57900B1D078 /* HunterTests.swift */; };
 		D21264D42A02B57900B1D078 /* HunterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21264D32A02B57900B1D078 /* HunterUITests.swift */; };
 		D21264D62A02B57900B1D078 /* HunterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21264D52A02B57900B1D078 /* HunterUITestsLaunchTests.swift */; };
+		D21264E62A02B99C00B1D078 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21264E52A02B99C00B1D078 /* ButtonStyle.swift */; };
+		D21264E82A02BBDB00B1D078 /* CreateHuntView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21264E72A02BBDB00B1D078 /* CreateHuntView.swift */; };
+		D21264EA2A02BCC600B1D078 /* HuntsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21264E92A02BCC600B1D078 /* HuntsListView.swift */; };
+		D21264ED2A02CA5B00B1D078 /* HuntModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21264EC2A02CA5B00B1D078 /* HuntModel.swift */; };
+		D21264EF2A02CC2B00B1D078 /* HuntDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21264EE2A02CC2B00B1D078 /* HuntDetailView.swift */; };
+		D21264F12A02F73A00B1D078 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21264F02A02F73A00B1D078 /* CardView.swift */; };
+		D21264F32A0300A800B1D078 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21264F22A0300A800B1D078 /* TrailingIconLabelStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* Begin PBXFileReference section */
 		D21264B52A02B57800B1D078 /* Hunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hunter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D21264B82A02B57800B1D078 /* HunterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HunterApp.swift; sourceTree = "<group>"; };
-		D21264BA2A02B57800B1D078 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D21264BC2A02B57800B1D078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D21264BF2A02B57800B1D078 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D21264C52A02B57900B1D078 /* HunterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HunterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,13 @@
 		D21264CF2A02B57900B1D078 /* HunterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HunterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D21264D32A02B57900B1D078 /* HunterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HunterUITests.swift; sourceTree = "<group>"; };
 		D21264D52A02B57900B1D078 /* HunterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HunterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D21264E52A02B99C00B1D078 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		D21264E72A02BBDB00B1D078 /* CreateHuntView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateHuntView.swift; sourceTree = "<group>"; };
+		D21264E92A02BCC600B1D078 /* HuntsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuntsListView.swift; sourceTree = "<group>"; };
+		D21264EC2A02CA5B00B1D078 /* HuntModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuntModel.swift; sourceTree = "<group>"; };
+		D21264EE2A02CC2B00B1D078 /* HuntDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuntDetailView.swift; sourceTree = "<group>"; };
+		D21264F02A02F73A00B1D078 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		D21264F22A0300A800B1D078 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +106,13 @@
 		D21264B72A02B57800B1D078 /* Hunter */ = {
 			isa = PBXGroup;
 			children = (
+				D21264F42A03029100B1D078 /* Components */,
+				D21264EB2A02CA5000B1D078 /* Models */,
+				D21264E22A02B96E00B1D078 /* Theme */,
+				D21264E72A02BBDB00B1D078 /* CreateHuntView.swift */,
+				D21264EE2A02CC2B00B1D078 /* HuntDetailView.swift */,
+				D21264E92A02BCC600B1D078 /* HuntsListView.swift */,
 				D21264B82A02B57800B1D078 /* HunterApp.swift */,
-				D21264BA2A02B57800B1D078 /* ContentView.swift */,
 				D21264BC2A02B57800B1D078 /* Assets.xcassets */,
 				D21264BE2A02B57800B1D078 /* Preview Content */,
 			);
@@ -125,6 +142,31 @@
 				D21264D52A02B57900B1D078 /* HunterUITestsLaunchTests.swift */,
 			);
 			path = HunterUITests;
+			sourceTree = "<group>";
+		};
+		D21264E22A02B96E00B1D078 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				D21264E52A02B99C00B1D078 /* ButtonStyle.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		D21264EB2A02CA5000B1D078 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D21264EC2A02CA5B00B1D078 /* HuntModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D21264F42A03029100B1D078 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D21264F22A0300A800B1D078 /* TrailingIconLabelStyle.swift */,
+				D21264F02A02F73A00B1D078 /* CardView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +299,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D21264BB2A02B57800B1D078 /* ContentView.swift in Sources */,
+				D21264F12A02F73A00B1D078 /* CardView.swift in Sources */,
+				D21264E62A02B99C00B1D078 /* ButtonStyle.swift in Sources */,
+				D21264ED2A02CA5B00B1D078 /* HuntModel.swift in Sources */,
+				D21264F32A0300A800B1D078 /* TrailingIconLabelStyle.swift in Sources */,
+				D21264E82A02BBDB00B1D078 /* CreateHuntView.swift in Sources */,
+				D21264EA2A02BCC600B1D078 /* HuntsListView.swift in Sources */,
+				D21264EF2A02CC2B00B1D078 /* HuntDetailView.swift in Sources */,
 				D21264B92A02B57800B1D078 /* HunterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
