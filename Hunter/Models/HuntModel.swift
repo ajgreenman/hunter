@@ -43,10 +43,10 @@ extension HuntModel {
             Site(name: "10", latitude: 44.730801, longitude: -85.727321),
         ]),
         HuntModel(name: "Easter 2023", sites: [
-            Site(latitude: 55.5, longitude: 81.0),
-            Site(latitude: 55.6, longitude: 81.1),
-            Site(latitude: 55.7, longitude: 81.3),
-            Site(latitude: 55.8, longitude: 81.5),
+            Site(latitude: 45.5, longitude: -81.0),
+            Site(latitude: 45.6, longitude: -81.1),
+            Site(latitude: 45.7, longitude: -81.3),
+            Site(latitude: 45.8, longitude: -81.5),
         ]),
     ]
 }
