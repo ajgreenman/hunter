@@ -24,6 +24,7 @@ struct HuntsListView: View {
             }
             .foregroundColor(.orange)
         }
+        .accentColor(.orange)
     }
 }
 
