@@ -110,14 +110,12 @@
 		D21264B72A02B57800B1D078 /* Hunter */ = {
 			isa = PBXGroup;
 			children = (
+				D21264F42A03029100B1D078 /* Components */,
 				D21265082A05846400B1D078 /* GoogleMap */,
 				D21264F52A03FD1200B1D078 /* Map */,
-				D21264F42A03029100B1D078 /* Components */,
 				D21264EB2A02CA5000B1D078 /* Models */,
 				D21264E22A02B96E00B1D078 /* Theme */,
-				D21264E72A02BBDB00B1D078 /* CreateHuntView.swift */,
-				D21264EE2A02CC2B00B1D078 /* HuntDetailView.swift */,
-				D21264E92A02BCC600B1D078 /* HuntsListView.swift */,
+				D21265092A05875400B1D078 /* Views */,
 				D21264B82A02B57800B1D078 /* HunterApp.swift */,
 				D21264BC2A02B57800B1D078 /* Assets.xcassets */,
 				D21264BE2A02B57800B1D078 /* Preview Content */,
@@ -189,6 +187,16 @@
 			children = (
 			);
 			path = GoogleMap;
+			sourceTree = "<group>";
+		};
+		D21265092A05875400B1D078 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D21264E72A02BBDB00B1D078 /* CreateHuntView.swift */,
+				D21264EE2A02CC2B00B1D078 /* HuntDetailView.swift */,
+				D21264E92A02BCC600B1D078 /* HuntsListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
