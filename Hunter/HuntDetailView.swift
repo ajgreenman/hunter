@@ -1,15 +1,23 @@
 import SwiftUI
 import MapKit
+import CoreLocationUI
 
 struct HuntDetailView: View {
     @Binding var hunt: HuntModel
-    @ObservedObject var mapSettings = MapSettings()
     @State var mapType = 0
+    @StateObject var locationManager = LocationManager()
     
     var body: some View {
-        MapView(sites: $hunt.sites)
-            .edgesIgnoringSafeArea(.all)
-            .environmentObject(mapSettings)
+        VStack {
+            if let location = locationManager.location {
+                Text("Your location: \(location.latitude), \(location.longitude)")
+            }
+            LocationButton {
+                locationManager.requestLocation()
+            }
+            MapView(sites: $hunt.sites)
+                //.edgesIgnoringSafeArea(.all)
+        }
     }
 }
 

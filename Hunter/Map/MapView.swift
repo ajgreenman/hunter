@@ -3,8 +3,6 @@ import MapKit
 import Combine
 
 struct MapView: UIViewRepresentable {
-    @EnvironmentObject private var settings: MapSettings
-    
     @Binding var sites: [HuntModel.Site]
         
     func makeUIView(context: Context) -> MKMapView {
